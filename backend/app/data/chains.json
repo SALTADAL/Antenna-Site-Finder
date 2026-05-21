@@ -1,0 +1,3651 @@
+{
+  "version": 1,
+  "count": 729,
+  "chains": [
+    {
+      "name": "McDonald's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Burger King",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Wendy's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Subway",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Starbucks",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Dunkin'",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Dunkin' Donuts",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Chick-fil-A",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Taco Bell",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "KFC",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pizza Hut",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Domino's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Domino's Pizza",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Papa John's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Papa Murphy's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Little Caesars",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Chipotle",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Chipotle Mexican Grill",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Panera",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Panera Bread",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Five Guys",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Shake Shack",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "In-N-Out",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "In-N-Out Burger",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Whataburger",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Culver's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Sonic",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Sonic Drive-In",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Arby's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Hardee's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Carl's Jr.",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Carl's Jr",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Del Taco",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Jack in the Box",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Popeyes",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bojangles",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bojangles'",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Church's Chicken",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Raising Cane's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Raising Cane's Chicken Fingers",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Zaxby's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "El Pollo Loco",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Wingstop",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Buffalo Wild Wings",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Jersey Mike's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Jersey Mike's Subs",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Jimmy John's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Firehouse Subs",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Quiznos",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Potbelly",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Potbelly Sandwich Shop",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Tropical Smoothie Cafe",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Smoothie King",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Jamba",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Jamba Juice",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Auntie Anne's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Cinnabon",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pretzelmaker",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Wetzel's Pretzels",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Krispy Kreme",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Tim Hortons",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Caribou Coffee",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Peet's Coffee",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Peet's Coffee & Tea",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Dutch Bros",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Dutch Bros Coffee",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Scooter's Coffee",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Ben & Jerry's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Cold Stone Creamery",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Baskin-Robbins",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Dairy Queen",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Carvel",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "TCBY",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Yogurtland",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pinkberry",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Menchie's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Sweetgreen",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Cava",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Honey Baked Ham",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Boston Market",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Long John Silver's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Captain D's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "A&W",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "A&W Restaurants",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Steak 'n Shake",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Krystal",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "White Castle",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Checkers",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Rally's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Cook Out",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Texas Roadhouse",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "LongHorn Steakhouse",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Outback Steakhouse",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Logan's Roadhouse",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Chili's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Chili's Grill & Bar",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Applebee's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Applebee's Neighborhood Grill + Bar",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "TGI Fridays",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "T.G.I. Friday's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Ruby Tuesday",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Cracker Barrel",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Cracker Barrel Old Country Store",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Olive Garden",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Red Lobster",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bonefish Grill",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "P.F. Chang's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pei Wei",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Panda Express",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Manchu Wok",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Sarku Japan",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Benihana",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "The Cheesecake Factory",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Cheesecake Factory",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Maggiano's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Maggiano's Little Italy",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Carrabba's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Carrabba's Italian Grill",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bahama Breeze",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Buca di Beppo",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bertucci's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Romano's Macaroni Grill",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "On the Border",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "On the Border Mexican Grill & Cantina",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Chevys",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Chevy's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Saltgrass Steak House",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Texas de Brazil",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Fogo de Chao",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Fogo de Ch\u00e3o",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "BJ's Restaurant",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "BJ's Restaurant & Brewhouse",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Yard House",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bar Louie",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "World of Beer",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Hooters",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Twin Peaks",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Miller's Ale House",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Mellow Mushroom",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Marco's Pizza",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Rosati's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Hungry Howie's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Round Table Pizza",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "CiCi's Pizza",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pizza Inn",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "MOD Pizza",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pieology",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Blaze Pizza",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Mountain Mike's Pizza",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Donatos Pizza",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Cottage Inn",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Beef 'O' Brady's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "The Coffee Bean & Tea Leaf",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "The Coffee Bean",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pret A Manger",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Le Pain Quotidien",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Au Bon Pain",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Corner Bakery",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Corner Bakery Cafe",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Einstein Bagels",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Einstein Bros. Bagels",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Einstein Bros Bagels",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bruegger's Bagels",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bruegger's",
+      "category": "qsr",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Starbucks Coffee",
+      "category": "qsr_substring",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Dunkin' Donuts Coffee",
+      "category": "qsr_substring",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Walmart",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Walmart Supercenter",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Walmart Neighborhood Market",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sam's Club",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Target",
+      "category": "grocery_bigbox",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Costco",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Costco Wholesale",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Kroger",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Publix",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Publix Super Market",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Publix Super Markets",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Safeway",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Albertsons",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Whole Foods",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Whole Foods Market",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Trader Joe's",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Aldi",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Lidl",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sprouts",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sprouts Farmers Market",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Wegmans",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Giant",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Giant Eagle",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Giant Food",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Stop & Shop",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Food Lion",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Harris Teeter",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Winn-Dixie",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Piggly Wiggly",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "IGA",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Save A Lot",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Save-A-Lot",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hannaford",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Shaw's",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Shaw's Supermarket",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Acme",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Acme Markets",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ralphs",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Vons",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Pavilions",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Smart & Final",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "ShopRite",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Price Chopper",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tops",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tops Friendly Markets",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Meijer",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "HEB",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "H-E-B",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Heinen's",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Schnucks",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hy-Vee",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Cub Foods",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Jewel-Osco",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Jewel",
+      "category": "grocery_bigbox",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Food 4 Less",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Smith's",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Smith's Food and Drug",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Fry's",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Fry's Food Stores",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "King Soopers",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "QFC",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Mariano's",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Pick 'n Save",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Food City",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Bashas'",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Stater Bros",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Stater Bros. Markets",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "WinCo Foods",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Grocery Outlet",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Grocery Outlet Bargain Market",
+      "category": "grocery_bigbox",
+      "match_mode": "substring"
+    },
+    {
+      "name": "7-Eleven",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Circle K",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Wawa",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sheetz",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "QuikTrip",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "QT",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Speedway",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Casey's",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Casey's General Store",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Royal Farms",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Cumberland Farms",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Kwik Trip",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Kwik Star",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Pilot Flying J",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Pilot",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Flying J",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Love's",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Love's Travel Stops",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Love's Travel Stop",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "TravelCenters of America",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "TA",
+      "category": "gas_convenience",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Stewart's",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Stewart's Shops",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Maverik",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Holiday Stationstores",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Allsup's",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Buc-ee's",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Stripes",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sunoco",
+      "category": "gas_convenience",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Shell",
+      "category": "gas_convenience",
+      "match_mode": "exact"
+    },
+    {
+      "name": "BP",
+      "category": "gas_convenience",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Exxon",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "ExxonMobil",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Mobil",
+      "category": "gas_convenience",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Chevron",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Texaco",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Marathon",
+      "category": "gas_convenience",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Phillips 66",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Conoco",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Valero",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Citgo",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "76",
+      "category": "gas_convenience",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Murphy USA",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Murphy Express",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "ARCO",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Gulf",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sinclair",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "GetGo",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Thorntons",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "RaceTrac",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "RaceWay",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Pilot Travel Centers",
+      "category": "gas_convenience",
+      "match_mode": "substring"
+    },
+    {
+      "name": "The Home Depot",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Home Depot",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Lowe's",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Lowe's Home Improvement",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ace Hardware",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "True Value",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "True Value Hardware",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Menards",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Harbor Freight",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Harbor Freight Tools",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tractor Supply",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tractor Supply Co.",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tractor Supply Co",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sherwin-Williams",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Benjamin Moore",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Floor & Decor",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Lumber Liquidators",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "LL Flooring",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sutherlands",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "84 Lumber",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "ABC Supply",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Builders FirstSource",
+      "category": "home_improvement",
+      "match_mode": "substring"
+    },
+    {
+      "name": "IKEA",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Ashley HomeStore",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Ashley Furniture",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Ashley Furniture HomeStore",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Rooms To Go",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "La-Z-Boy",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bob's Discount Furniture",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Living Spaces",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Mattress Firm",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Sleep Number",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Mattress Warehouse",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pottery Barn",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pottery Barn Kids",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Crate & Barrel",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "West Elm",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Restoration Hardware",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "RH",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Williams Sonoma",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Williams-Sonoma",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "HomeGoods",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "At Home",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Big Lots",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Tuesday Morning",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "World Market",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Cost Plus World Market",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pier 1",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pier 1 Imports",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Bed Bath & Beyond",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Buy Buy Baby",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "The Container Store",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "CB2",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Arhaus",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Havertys",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "City Furniture",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "El Dorado Furniture",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Value City Furniture",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "American Freight",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "American Signature Furniture",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Raymour & Flanigan",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Ethan Allen",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Sleep Outfitters",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Sit 'n Sleep",
+      "category": "furniture_home",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Macy's",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Nordstrom",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Nordstrom Rack",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Dillard's",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "JCPenney",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Kohl's",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Belk",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Burlington",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Burlington Coat Factory",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ross",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ross Dress for Less",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "TJ Maxx",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "T.J. Maxx",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Marshalls",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "DSW",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Famous Footwear",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Foot Locker",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Champs Sports",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Finish Line",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hibbett Sports",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Dick's Sporting Goods",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Academy Sports",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Academy Sports + Outdoors",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Bass Pro Shops",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Cabela's",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "REI",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Big 5",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Big 5 Sporting Goods",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Old Navy",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Gap",
+      "category": "apparel_dept",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Banana Republic",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "J.Crew",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "J. Crew",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Madewell",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Athleta",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Anthropologie",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Urban Outfitters",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Free People",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Lululemon",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "lululemon athletica",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "H&M",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Forever 21",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Zara",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Uniqlo",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hot Topic",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Spencer's",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Spencer Gifts",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tilly's",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Lids",
+      "category": "apparel_dept",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Hat World",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sunglass Hut",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "LensCrafters",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Pearle Vision",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Visionworks",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "America's Best",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "America's Best Contacts & Eyeglasses",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "MyEyeDr",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Stanton Optical",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Warby Parker",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hallmark",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Carter's",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "OshKosh B'gosh",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Children's Place",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "The Children's Place",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Justice",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Gymboree",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "DSW Designer Shoe Warehouse",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Shoe Carnival",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Rack Room Shoes",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Payless ShoeSource",
+      "category": "apparel_dept",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Jiffy Lube",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Valvoline Instant Oil Change",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Valvoline",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Midas",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Meineke",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Pep Boys",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "AAMCO",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "AAMCO Transmissions",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Big O Tires",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Discount Tire",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "America's Tire",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Firestone",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Firestone Complete Auto Care",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Goodyear",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Goodyear Auto Service",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Mavis Tire",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Mavis Discount Tire",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "NTB",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "National Tire and Battery",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tire Kingdom",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tires Plus",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Christian Brothers Automotive",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Brakes Plus",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Brake Masters",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Brake Check",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Just Brakes",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Maaco",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Earl Scheib",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ziebart",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tuffy",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tuffy Tire & Auto",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Monro",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Monro Muffler",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Car-X",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Express Oil Change",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Take 5 Oil Change",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Take 5",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "AutoZone",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "O'Reilly Auto Parts",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "O'Reilly",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Advance Auto Parts",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "NAPA Auto Parts",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "NAPA",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "CarMax",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Carvana",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "AutoNation",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sonic Automotive",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Group 1 Automotive",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hertz",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Avis",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Enterprise",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Enterprise Rent-A-Car",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Budget",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Alamo",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "National",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Thrifty",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Dollar",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sixt",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Penske",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "U-Haul",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ryder",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Budget Truck",
+      "category": "auto_service",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Public Storage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Extra Space Storage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "U-Haul Self-Storage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Life Storage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "CubeSmart",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Cube Smart",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Storage King USA",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Simply Self Storage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "A-1 Self Storage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Storage West",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "StorageMart",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "ezStorage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "iStorage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Devon Self Storage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sentry Self Storage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Metro Self Storage",
+      "category": "storage",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Planet Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "LA Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Anytime Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "24 Hour Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Equinox",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Crunch Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Crunch",
+      "category": "fitness",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Gold's Gym",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Snap Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Orangetheory Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Orangetheory",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "F45",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "F45 Training",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Pure Barre",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "SoulCycle",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "CycleBar",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Title Boxing Club",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Title Boxing",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Burn Boot Camp",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "9Round",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "YMCA",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "YWCA",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Curves",
+      "category": "fitness",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Workout Anytime",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Retro Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Blink Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "EOS Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Life Time",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Lifetime Fitness",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "In-Shape",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Powerhouse Gym",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "World Gym",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Fitness 19",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Youfit",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Youfit Health Clubs",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Club Pilates",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "StretchLab",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Solidcore",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Barry's",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Barry's Bootcamp",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Row House",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "FlyWheel",
+      "category": "fitness",
+      "match_mode": "substring"
+    },
+    {
+      "name": "CVS",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "CVS Pharmacy",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Walgreens",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Rite Aid",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Duane Reade",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sephora",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ulta",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ulta Beauty",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Bath & Body Works",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Victoria's Secret",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "PINK",
+      "category": "pharmacy_beauty",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Sally Beauty",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sally Beauty Supply",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Massage Envy",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hand & Stone",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "European Wax Center",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Drybar",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Great Clips",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Supercuts",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Cost Cutters",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sport Clips",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Fantastic Sams",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hair Cuttery",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "MasterCuts",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "SmartStyle",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sola Salon Studios",
+      "category": "pharmacy_beauty",
+      "match_mode": "substring"
+    },
+    {
+      "name": "AT&T",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "T-Mobile",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Verizon",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Verizon Wireless",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sprint",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Cricket Wireless",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Cricket",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Boost Mobile",
+      "category": "telecom_electronics",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Metro by T-Mobile",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "MetroPCS",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Best Buy",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Apple Store",
+      "category": "telecom_electronics",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Apple",
+      "category": "telecom_electronics",
+      "match_mode": "exact"
+    },
+    {
+      "name": "GameStop",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Microsoft Store",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Xfinity",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Xfinity Store",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Spectrum",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Spectrum Mobile",
+      "category": "telecom_electronics",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Bank of America",
+      "category": "banks_insurance",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Chase",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Wells Fargo",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Citibank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "U.S. Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "PNC",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "PNC Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "TD Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Capital One",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Capital One Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "KeyBank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Regions Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Regions",
+      "category": "banks_insurance",
+      "match_mode": "exact"
+    },
+    {
+      "name": "BB&T",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Truist",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Truist Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "M&T Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "BMO",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "BMO Harris",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Fifth Third Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Fifth Third",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Citizens Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Citizens",
+      "category": "banks_insurance",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Huntington Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Huntington",
+      "category": "banks_insurance",
+      "match_mode": "exact"
+    },
+    {
+      "name": "HSBC",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Santander",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Santander Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ally Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "USAA",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Discover",
+      "category": "banks_insurance",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Discover Bank",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Charles Schwab",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Schwab",
+      "category": "banks_insurance",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Edward Jones",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Fidelity",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Northwestern Mutual",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Allstate",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "State Farm",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Geico",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Progressive",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Farmers Insurance",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Farmers",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Liberty Mutual",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Nationwide",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "American Family Insurance",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "H&R Block",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Jackson Hewitt",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Liberty Tax",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Liberty Tax Service",
+      "category": "banks_insurance",
+      "match_mode": "substring"
+    },
+    {
+      "name": "The UPS Store",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "UPS Store",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "FedEx Office",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "FedEx",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "USPS",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Postal Annex",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Pak Mail",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Office Depot",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "OfficeMax",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Office Depot OfficeMax",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Staples",
+      "category": "shipping_office",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Dollar Tree",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Dollar General",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Family Dollar",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Five Below",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "99 Cents Only",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Ollie's",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Ollie's Bargain Outlet",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Books-A-Million",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Barnes & Noble",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Half Price Books",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Michaels",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Hobby Lobby",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Jo-Ann",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Joann",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Jo-Ann Fabric",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Jo-Ann Fabrics",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Party City",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Spirit Halloween",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "PetSmart",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Petco",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Pet Supplies Plus",
+      "category": "discount_hobby",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Holiday Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Holiday Inn Express",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hampton Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hampton Inn & Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hilton",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hilton Garden Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "DoubleTree",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Embassy Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Marriott",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Courtyard",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Courtyard by Marriott",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Residence Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Fairfield Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Fairfield Inn & Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "SpringHill Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "TownePlace Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Renaissance",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sheraton",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Westin",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hyatt",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hyatt Place",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Hyatt House",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "InterContinental",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Crowne Plaza",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Staybridge Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Candlewood Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Best Western",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Best Western Plus",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "La Quinta",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "La Quinta Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Quality Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Comfort Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Comfort Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Sleep Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "MainStay Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Clarion",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Econo Lodge",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Days Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Super 8",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Travelodge",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Microtel",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Wyndham",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Howard Johnson",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Ramada",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Baymont",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Wingate",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Tru",
+      "category": "hotels",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Country Inn & Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Red Roof Inn",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Red Roof",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Motel 6",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Studio 6",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Extended Stay America",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "WoodSpring Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Aloft",
+      "category": "hotels",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Element",
+      "category": "hotels",
+      "match_mode": "exact"
+    },
+    {
+      "name": "Home2 Suites",
+      "category": "hotels",
+      "match_mode": "substring"
+    },
+    {
+      "name": "Home2",
+      "category": "hotels",
+      "match_mode": "substring"
+    }
+  ]
+}

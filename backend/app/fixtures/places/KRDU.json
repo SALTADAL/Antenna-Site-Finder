@@ -1,0 +1,477 @@
+[
+  {
+    "place_id": "fixture_krdu_001",
+    "name": "Triangle Auto Body & Paint",
+    "formatted_address": "5421 Industry Dr, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0142",
+    "address_components": [
+      {"long_name": "5421", "short_name": "5421", "types": ["street_number"]},
+      {"long_name": "Industry Dr", "short_name": "Industry Dr", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8521, "lng": -78.8412}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.6,
+    "user_ratings_total": 87,
+    "types": ["car_repair", "point_of_interest"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_001"
+  },
+  {
+    "place_id": "fixture_krdu_002",
+    "name": "Starbucks",
+    "formatted_address": "10930 Chapel Hill Rd, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0188",
+    "address_components": [
+      {"long_name": "10930", "short_name": "10930", "types": ["street_number"]},
+      {"long_name": "Chapel Hill Rd", "short_name": "Chapel Hill Rd", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8702, "lng": -78.8231}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.1,
+    "user_ratings_total": 312,
+    "types": ["cafe", "food"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_002"
+  },
+  {
+    "place_id": "fixture_krdu_003",
+    "name": "Cardinal Self Storage",
+    "formatted_address": "3225 Davis Dr, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0231",
+    "address_components": [
+      {"long_name": "3225", "short_name": "3225", "types": ["street_number"]},
+      {"long_name": "Davis Dr", "short_name": "Davis Dr", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8358, "lng": -78.8557}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.4,
+    "user_ratings_total": 54,
+    "types": ["storage"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_003"
+  },
+  {
+    "place_id": "fixture_krdu_004",
+    "name": "The Home Depot",
+    "formatted_address": "3701 Davis Dr, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0299",
+    "address_components": [
+      {"long_name": "3701", "short_name": "3701", "types": ["street_number"]},
+      {"long_name": "Davis Dr", "short_name": "Davis Dr", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8290, "lng": -78.8602}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.2,
+    "user_ratings_total": 1842,
+    "types": ["hardware_store", "store"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_004"
+  },
+  {
+    "place_id": "fixture_krdu_005",
+    "name": "Bovinos Italian Kitchen",
+    "formatted_address": "10930 Capital Blvd, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0317",
+    "address_components": [
+      {"long_name": "10930", "short_name": "10930", "types": ["street_number"]},
+      {"long_name": "Capital Blvd", "short_name": "Capital Blvd", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8866, "lng": -78.8123}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.7,
+    "user_ratings_total": 421,
+    "types": ["restaurant", "food"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_005"
+  },
+  {
+    "place_id": "fixture_krdu_006",
+    "name": "Subway",
+    "formatted_address": "2304 Aviation Pkwy, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0356",
+    "address_components": [
+      {"long_name": "2304", "short_name": "2304", "types": ["street_number"]},
+      {"long_name": "Aviation Pkwy", "short_name": "Aviation Pkwy", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8731, "lng": -78.8345}},
+    "business_status": "OPERATIONAL",
+    "rating": 3.8,
+    "user_ratings_total": 96,
+    "types": ["restaurant", "food"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_006"
+  },
+  {
+    "place_id": "fixture_krdu_007",
+    "name": "Carolina Custom Cabinetry",
+    "formatted_address": "5800 Triangle Industrial Blvd, Raleigh, NC 27617, USA",
+    "formatted_phone_number": "(919) 555-0401",
+    "address_components": [
+      {"long_name": "5800", "short_name": "5800", "types": ["street_number"]},
+      {"long_name": "Triangle Industrial Blvd", "short_name": "Triangle Industrial Blvd", "types": ["route"]},
+      {"long_name": "Raleigh", "short_name": "Raleigh", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27617", "short_name": "27617", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8941, "lng": -78.7654}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.8,
+    "user_ratings_total": 64,
+    "types": ["furniture_store", "store"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_007"
+  },
+  {
+    "place_id": "fixture_krdu_008",
+    "name": "Hampton Inn Raleigh-Durham Airport",
+    "formatted_address": "1014 Aerial Center Pkwy, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0438",
+    "address_components": [
+      {"long_name": "1014", "short_name": "1014", "types": ["street_number"]},
+      {"long_name": "Aerial Center Pkwy", "short_name": "Aerial Center Pkwy", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8617, "lng": -78.8085}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.3,
+    "user_ratings_total": 678,
+    "types": ["lodging"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_008"
+  },
+  {
+    "place_id": "fixture_krdu_009",
+    "name": "Pinecrest Auto Service",
+    "formatted_address": "4112 Old Page Rd, Durham, NC 27703, USA",
+    "formatted_phone_number": "(919) 555-0473",
+    "address_components": [
+      {"long_name": "4112", "short_name": "4112", "types": ["street_number"]},
+      {"long_name": "Old Page Rd", "short_name": "Old Page Rd", "types": ["route"]},
+      {"long_name": "Durham", "short_name": "Durham", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27703", "short_name": "27703", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.9087, "lng": -78.8332}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.9,
+    "user_ratings_total": 213,
+    "types": ["car_repair"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_009"
+  },
+  {
+    "place_id": "fixture_krdu_010",
+    "name": "7-Eleven",
+    "formatted_address": "2155 NC-54, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0512",
+    "address_components": [
+      {"long_name": "2155", "short_name": "2155", "types": ["street_number"]},
+      {"long_name": "NC-54", "short_name": "NC-54", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8602, "lng": -78.8438}},
+    "business_status": "OPERATIONAL",
+    "rating": 3.6,
+    "user_ratings_total": 132,
+    "types": ["gas_station", "convenience_store"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_010"
+  },
+  {
+    "place_id": "fixture_krdu_011",
+    "name": "RDU Indoor Storage Solutions",
+    "formatted_address": "7800 Globe Dr, Raleigh, NC 27617, USA",
+    "formatted_phone_number": "(919) 555-0567",
+    "address_components": [
+      {"long_name": "7800", "short_name": "7800", "types": ["street_number"]},
+      {"long_name": "Globe Dr", "short_name": "Globe Dr", "types": ["route"]},
+      {"long_name": "Raleigh", "short_name": "Raleigh", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27617", "short_name": "27617", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8859, "lng": -78.7521}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.5,
+    "user_ratings_total": 41,
+    "types": ["storage"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_011"
+  },
+  {
+    "place_id": "fixture_krdu_012",
+    "name": "Big O Tires",
+    "formatted_address": "8600 Glenwood Ave, Raleigh, NC 27612, USA",
+    "formatted_phone_number": "(919) 555-0612",
+    "address_components": [
+      {"long_name": "8600", "short_name": "8600", "types": ["street_number"]},
+      {"long_name": "Glenwood Ave", "short_name": "Glenwood Ave", "types": ["route"]},
+      {"long_name": "Raleigh", "short_name": "Raleigh", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27612", "short_name": "27612", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8743, "lng": -78.7028}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.0,
+    "user_ratings_total": 287,
+    "types": ["car_repair", "store"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_012"
+  },
+  {
+    "place_id": "fixture_krdu_013",
+    "name": "Lakeside Furniture Outlet",
+    "formatted_address": "5210 Capital Blvd, Raleigh, NC 27616, USA",
+    "formatted_phone_number": "(919) 555-0654",
+    "address_components": [
+      {"long_name": "5210", "short_name": "5210", "types": ["street_number"]},
+      {"long_name": "Capital Blvd", "short_name": "Capital Blvd", "types": ["route"]},
+      {"long_name": "Raleigh", "short_name": "Raleigh", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27616", "short_name": "27616", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8512, "lng": -78.6021}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.4,
+    "user_ratings_total": 78,
+    "types": ["furniture_store"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_013"
+  },
+  {
+    "place_id": "fixture_krdu_014",
+    "name": "Carolina Hardware & Supply Co",
+    "formatted_address": "812 Aviation Pkwy, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0689",
+    "address_components": [
+      {"long_name": "812", "short_name": "812", "types": ["street_number"]},
+      {"long_name": "Aviation Pkwy", "short_name": "Aviation Pkwy", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8689, "lng": -78.8201}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.7,
+    "user_ratings_total": 156,
+    "types": ["hardware_store", "store"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_014"
+  },
+  {
+    "place_id": "fixture_krdu_015",
+    "name": "Planet Fitness",
+    "formatted_address": "1011 Aviation Pkwy, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0723",
+    "address_components": [
+      {"long_name": "1011", "short_name": "1011", "types": ["street_number"]},
+      {"long_name": "Aviation Pkwy", "short_name": "Aviation Pkwy", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8654, "lng": -78.8156}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.0,
+    "user_ratings_total": 489,
+    "types": ["gym"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_015"
+  },
+  {
+    "place_id": "fixture_krdu_016",
+    "name": "Morrisville Family Bakery",
+    "formatted_address": "240 Town Hall Dr, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0768",
+    "address_components": [
+      {"long_name": "240", "short_name": "240", "types": ["street_number"]},
+      {"long_name": "Town Hall Dr", "short_name": "Town Hall Dr", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8231, "lng": -78.8392}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.9,
+    "user_ratings_total": 312,
+    "types": ["bakery", "food"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_016"
+  },
+  {
+    "place_id": "fixture_krdu_017",
+    "name": "Walmart Supercenter",
+    "formatted_address": "8501 Brier Creek Pkwy, Raleigh, NC 27617, USA",
+    "formatted_phone_number": "(919) 555-0801",
+    "address_components": [
+      {"long_name": "8501", "short_name": "8501", "types": ["street_number"]},
+      {"long_name": "Brier Creek Pkwy", "short_name": "Brier Creek Pkwy", "types": ["route"]},
+      {"long_name": "Raleigh", "short_name": "Raleigh", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27617", "short_name": "27617", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.9012, "lng": -78.7825}},
+    "business_status": "OPERATIONAL",
+    "rating": 3.9,
+    "user_ratings_total": 4231,
+    "types": ["store", "supermarket"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_017"
+  },
+  {
+    "place_id": "fixture_krdu_018",
+    "name": "Triangle Tile & Stone",
+    "formatted_address": "920 Perimeter Park Dr, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0834",
+    "address_components": [
+      {"long_name": "920", "short_name": "920", "types": ["street_number"]},
+      {"long_name": "Perimeter Park Dr", "short_name": "Perimeter Park Dr", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8584, "lng": -78.8267}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.6,
+    "user_ratings_total": 92,
+    "types": ["home_goods_store", "store"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_018"
+  },
+  {
+    "place_id": "fixture_krdu_019",
+    "name": "McDonald's",
+    "formatted_address": "1801 Aviation Pkwy, Morrisville, NC 27560, USA",
+    "formatted_phone_number": "(919) 555-0867",
+    "address_components": [
+      {"long_name": "1801", "short_name": "1801", "types": ["street_number"]},
+      {"long_name": "Aviation Pkwy", "short_name": "Aviation Pkwy", "types": ["route"]},
+      {"long_name": "Morrisville", "short_name": "Morrisville", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27560", "short_name": "27560", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8702, "lng": -78.8198}},
+    "business_status": "OPERATIONAL",
+    "rating": 3.5,
+    "user_ratings_total": 1247,
+    "types": ["restaurant", "food"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_019"
+  },
+  {
+    "place_id": "fixture_krdu_020",
+    "name": "Park West Auto & Truck Repair",
+    "formatted_address": "6402 Old Westgate Rd, Raleigh, NC 27617, USA",
+    "formatted_phone_number": "(919) 555-0901",
+    "address_components": [
+      {"long_name": "6402", "short_name": "6402", "types": ["street_number"]},
+      {"long_name": "Old Westgate Rd", "short_name": "Old Westgate Rd", "types": ["route"]},
+      {"long_name": "Raleigh", "short_name": "Raleigh", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27617", "short_name": "27617", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8892, "lng": -78.7456}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.8,
+    "user_ratings_total": 178,
+    "types": ["car_repair"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_020"
+  },
+  {
+    "place_id": "fixture_krdu_021",
+    "name": "Public Storage",
+    "formatted_address": "4730 NC-55, Durham, NC 27713, USA",
+    "formatted_phone_number": "(919) 555-0934",
+    "address_components": [
+      {"long_name": "4730", "short_name": "4730", "types": ["street_number"]},
+      {"long_name": "NC-55", "short_name": "NC-55", "types": ["route"]},
+      {"long_name": "Durham", "short_name": "Durham", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27713", "short_name": "27713", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8945, "lng": -78.9213}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.2,
+    "user_ratings_total": 89,
+    "types": ["storage"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_021"
+  },
+  {
+    "place_id": "fixture_krdu_022",
+    "name": "Bull City Bicycle Co",
+    "formatted_address": "618 N Mangum St, Durham, NC 27701, USA",
+    "formatted_phone_number": "(919) 555-0978",
+    "address_components": [
+      {"long_name": "618", "short_name": "618", "types": ["street_number"]},
+      {"long_name": "N Mangum St", "short_name": "N Mangum St", "types": ["route"]},
+      {"long_name": "Durham", "short_name": "Durham", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27701", "short_name": "27701", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.9985, "lng": -78.8987}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.9,
+    "user_ratings_total": 246,
+    "types": ["store"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_022"
+  },
+  {
+    "place_id": "fixture_krdu_023",
+    "name": "Aviation Park Storage",
+    "formatted_address": "1408 N Harrison Ave, Cary, NC 27513, USA",
+    "formatted_phone_number": "(919) 555-1023",
+    "address_components": [
+      {"long_name": "1408", "short_name": "1408", "types": ["street_number"]},
+      {"long_name": "N Harrison Ave", "short_name": "N Harrison Ave", "types": ["route"]},
+      {"long_name": "Cary", "short_name": "Cary", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27513", "short_name": "27513", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.8154, "lng": -78.7892}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.5,
+    "user_ratings_total": 33,
+    "types": ["storage"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_023"
+  },
+  {
+    "place_id": "fixture_krdu_024",
+    "name": "Joe's Garage & Performance",
+    "formatted_address": "3402 Industrial Park Dr, Cary, NC 27513, USA",
+    "formatted_phone_number": "(919) 555-1056",
+    "address_components": [
+      {"long_name": "3402", "short_name": "3402", "types": ["street_number"]},
+      {"long_name": "Industrial Park Dr", "short_name": "Industrial Park Dr", "types": ["route"]},
+      {"long_name": "Cary", "short_name": "Cary", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27513", "short_name": "27513", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 35.7913, "lng": -78.7654}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.7,
+    "user_ratings_total": 124,
+    "types": ["car_repair"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_024"
+  },
+  {
+    "place_id": "fixture_krdu_025",
+    "name": "Far Distant Diner",
+    "formatted_address": "9999 Way Too Far Rd, Raleigh, NC 27615, USA",
+    "formatted_phone_number": "(919) 555-1089",
+    "address_components": [
+      {"long_name": "9999", "short_name": "9999", "types": ["street_number"]},
+      {"long_name": "Way Too Far Rd", "short_name": "Way Too Far Rd", "types": ["route"]},
+      {"long_name": "Raleigh", "short_name": "Raleigh", "types": ["locality"]},
+      {"long_name": "North Carolina", "short_name": "NC", "types": ["administrative_area_level_1"]},
+      {"long_name": "27615", "short_name": "27615", "types": ["postal_code"]}
+    ],
+    "geometry": {"location": {"lat": 36.1500, "lng": -78.5000}},
+    "business_status": "OPERATIONAL",
+    "rating": 4.0,
+    "user_ratings_total": 12,
+    "types": ["restaurant"],
+    "url": "https://maps.google.com/?cid=fixture_krdu_025"
+  }
+]
