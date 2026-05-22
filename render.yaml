@@ -6,7 +6,15 @@
 #   - Service sleeps after 15 minutes of inactivity
 #   - First request after sleep takes 30-60 seconds to wake up
 #   - 750 free hours/month (enough for a single 24/7 service)
-# Upgrade to "Starter" ($7/mo) for always-on if the sleep is annoying.
+#   - NO persistent disk (Starter plan only, $7/mo). The SQLite cache and
+#     outreach state are wiped on every deploy AND every sleep/wake cycle.
+#     Use the CSV export to preserve any work that matters.
+#
+# To upgrade to always-on + persistent data:
+#   1. Change `plan: free` to `plan: starter`
+#   2. Uncomment the `disk:` block at the bottom
+#   3. Change CACHE_DB_PATH and LOG_FILE values to /var/data/...
+#   4. Push the change. Render redeploys with the new tier.
 
 services:
   - type: web
@@ -27,10 +35,13 @@ services:
     envVars:
       - key: APP_MODE
         value: live
+      # Ephemeral paths inside the container. These reset on every deploy
+      # and every sleep/wake cycle. To make them durable, upgrade to
+      # plan: starter and re-enable the disk block at the bottom.
       - key: CACHE_DB_PATH
-        value: /var/data/cache.db
+        value: /tmp/cache.db
       - key: LOG_FILE
-        value: /var/data/app.log
+        value: /tmp/app.log
       - key: GOOGLE_MAPS_API_KEY
         sync: false   # set in Render dashboard
       - key: ANTHROPIC_API_KEY
@@ -38,9 +49,12 @@ services:
       - key: FRONTEND_ORIGIN
         sync: false   # set in Render dashboard after Netlify gives you a URL
 
-    # Persistent disk so the SQLite cache and outreach state survive deploys.
-    # Free tier includes 1 GB. Mounted at /var/data.
-    disk:
-      name: asf-data
-      mountPath: /var/data
-      sizeGB: 1
+    # ----------------------------------------------------------------------
+    # Persistent disk. Disabled on free tier. Uncomment AFTER upgrading the
+    # plan above to "starter" if you want cache + outreach data to survive
+    # deploys.
+    # ----------------------------------------------------------------------
+    # disk:
+    #   name: asf-data
+    #   mountPath: /var/data
+    #   sizeGB: 1
