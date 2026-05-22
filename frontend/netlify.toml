@@ -1,0 +1,34 @@
+# Netlify build configuration for the Antenna Site Finder frontend.
+# Drop this file in /frontend. Netlify reads it automatically when it
+# detects the repo.
+
+[build]
+  # The frontend lives inside a subdirectory of the repo.
+  base    = "frontend"
+  command = "npm install && npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Pin Node to match what we run locally and in Docker.
+  NODE_VERSION = "20"
+
+# SPA routing: every unknown path falls through to index.html so React
+# Router (when we add it) can handle the URL client-side.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Long cache for hashed asset bundles
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Standard security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"

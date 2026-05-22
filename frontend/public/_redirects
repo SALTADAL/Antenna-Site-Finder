@@ -1,0 +1,4 @@
+# SPA fallback. Belt-and-suspenders with the netlify.toml rule, but
+# this file ships in the build output too, so it survives a workspace
+# where netlify.toml is misread.
+/*    /index.html   200

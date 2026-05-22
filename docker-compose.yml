@@ -12,8 +12,14 @@ services:
       - ./backend/app:/app/app
       - ./backend/scripts:/app/scripts
       # Persist the cache and logs on the host so they survive `compose down`.
-      - ./backend/cache.db:/app/cache.db
+      # We mount a parent dir, not a single file, so SQLite can create
+      # the cache.db file on first boot without docker mis-creating a
+      # directory at the file path.
+      - ./backend/data_runtime:/app/runtime
       - ./backend/logs:/app/logs
+    environment:
+      - CACHE_DB_PATH=/app/runtime/cache.db
+      - LOG_FILE=/app/logs/app.log
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/healthz')"]

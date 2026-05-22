@@ -13,6 +13,16 @@ from pydantic import BaseModel, Field
 
 RoofType = Literal["flat", "mixed", "pitched", "unknown"]
 
+OutreachStatus = Literal[
+    "untouched",
+    "contacted",
+    "followup",
+    "interested",
+    "declined",
+    "won",
+    "lost",
+]
+
 
 class SearchRequest(BaseModel):
     """Input for /search."""
@@ -28,6 +38,33 @@ class SearchRequest(BaseModel):
         False,
         description="If true, chains are kept in the result list with chain=true and a 0 chain-bonus score.",
     )
+    hide_contacted: bool = Field(
+        True,
+        description="If true, candidates with any outreach status other than 'untouched' are filtered out. Set false to see your full history at this airport.",
+    )
+
+
+class OutreachState(BaseModel):
+    """Per-candidate outreach tracking."""
+
+    place_id: str
+    status: OutreachStatus = "untouched"
+    last_contact_at: int | None = None  # unix seconds
+    notes: str = ""
+    contacted_by: str = ""
+    business_name: str = ""
+    airport_icao: str = ""
+    updated_at: int | None = None
+
+
+class OutreachUpdateRequest(BaseModel):
+    """Body for PUT /candidates/{place_id}/state."""
+
+    status: OutreachStatus
+    notes: str = ""
+    contacted_by: str = ""
+    business_name: str = ""
+    airport_icao: str = ""
 
 
 class Airport(BaseModel):
@@ -78,10 +115,21 @@ class Candidate(BaseModel):
 
     google_maps_url: str = ""
 
+    # Outreach tracking (Stage 5). None = untouched (no row in DB).
+    outreach: OutreachState | None = None
+
 
 class CostBreakdown(BaseModel):
     by_api: dict[str, dict[str, float]] = Field(default_factory=dict)
     total_usd: float = 0.0
+
+
+class OutreachCounts(BaseModel):
+    """Aggregated counts for the search summary panel."""
+
+    total_known: int = 0
+    hidden: int = 0
+    by_status: dict[str, int] = Field(default_factory=dict)
 
 
 class SearchResponse(BaseModel):
@@ -96,3 +144,4 @@ class SearchResponse(BaseModel):
     pipeline_stage: Literal["places", "scored", "complete"] = "complete"
     mock_mode: bool = False
     warnings: list[str] = Field(default_factory=list)
+    outreach_counts: OutreachCounts = Field(default_factory=OutreachCounts)

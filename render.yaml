@@ -1,0 +1,46 @@
+# Render Blueprint for the Antenna Site Finder backend.
+# Render reads this when you click "New > Blueprint" and point it at the repo.
+# https://render.com/docs/blueprint-spec
+#
+# Free tier behavior:
+#   - Service sleeps after 15 minutes of inactivity
+#   - First request after sleep takes 30-60 seconds to wake up
+#   - 750 free hours/month (enough for a single 24/7 service)
+# Upgrade to "Starter" ($7/mo) for always-on if the sleep is annoying.
+
+services:
+  - type: web
+    name: asf-backend
+    runtime: docker
+    plan: free
+    region: oregon
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /healthz
+
+    # Render sets $PORT automatically. Override the Dockerfile CMD to bind to it.
+    dockerCommand: >-
+      uvicorn app.main:app --host 0.0.0.0 --port $PORT
+
+    # Environment variables. The secret ones (API keys) you'll fill in
+    # via the Render dashboard after the first deploy.
+    envVars:
+      - key: APP_MODE
+        value: live
+      - key: CACHE_DB_PATH
+        value: /var/data/cache.db
+      - key: LOG_FILE
+        value: /var/data/app.log
+      - key: GOOGLE_MAPS_API_KEY
+        sync: false   # set in Render dashboard
+      - key: ANTHROPIC_API_KEY
+        sync: false   # set in Render dashboard
+      - key: FRONTEND_ORIGIN
+        sync: false   # set in Render dashboard after Netlify gives you a URL
+
+    # Persistent disk so the SQLite cache and outreach state survive deploys.
+    # Free tier includes 1 GB. Mounted at /var/data.
+    disk:
+      name: asf-data
+      mountPath: /var/data
+      sizeGB: 1

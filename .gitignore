@@ -18,11 +18,14 @@ venv/
 dist/
 build/
 
-# SQLite cache
+# SQLite cache. Two paths because the cache lives in different places
+# depending on whether you run via uvicorn (backend/cache.db) or via
+# docker-compose (backend/data_runtime/cache.db).
 backend/cache.db
 backend/cache.db-journal
 backend/cache.db-wal
 backend/cache.db-shm
+backend/data_runtime/
 backend/logs/
 
 # Node

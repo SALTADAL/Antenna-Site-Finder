@@ -46,17 +46,17 @@ DETAILS_URL = "https://maps.googleapis.com/maps/api/place/details/json"
 # Business types we search. Tuned for "small business with a probable flat
 # roof": light retail, light industrial, auto services, food service in
 # strip-mall buildings.
+#
+# Reduced from 11 to 6 types in the perf pass. "store" subsumes
+# hardware/furniture/home_goods in practice. Restaurant + bakery + gym
+# share enough overlap with each other that one is enough. Removed
+# car_dealer because dealerships are essentially never independents.
 SEARCH_TYPES = (
     "store",
-    "hardware_store",
-    "furniture_store",
-    "home_goods_store",
     "car_repair",
-    "car_dealer",
     "storage",
     "gas_station",
     "restaurant",
-    "bakery",
     "gym",
 )
 
@@ -104,7 +104,11 @@ async def _fetch_nearby_live(
         "key": settings.google_maps_api_key,
     }
 
-    for page in range(3):
+    # Reduced from 3 pages to 1. The second and third page typically add
+    # diminishing-returns matches (further from the airport, often duplicates
+    # across types after dedup) for ~5 seconds of extra wall-clock per type.
+    # Restore by bumping to 2 or 3 if you find searches missing real candidates.
+    for page in range(1):
         cache_payload = {"url": NEARBY_URL, "params": {**params, "key": "REDACTED"}}
         key = cache_key(cache_payload)
         cached = cache_get("places_cache", key)
@@ -152,7 +156,8 @@ async def _fetch_nearby_live(
         if not next_token:
             break
         # Google requires a brief wait before the page token activates.
-        await asyncio.sleep(2.0)
+        # 500ms is enough in practice; the docs say "a brief delay".
+        await asyncio.sleep(0.5)
         params = {"pagetoken": next_token, "key": settings.google_maps_api_key}
 
     return all_results
@@ -261,31 +266,33 @@ def _to_candidate(raw: dict[str, Any], origin_lat: float, origin_lng: float) -> 
     )
 
 
-async def search_nearby(
+async def search_nearby_basic(
     icao: str,
     origin_lat: float,
     origin_lng: float,
     radius_miles: float,
     search_id: str,
 ) -> tuple[list[Candidate], list[str]]:
-    """Top-level entry. Returns (candidates, warnings).
+    """Fast first pass: nearby search only, no Place Details.
 
-    Strategy:
-        1. For each search type, run a paginated nearby search.
-        2. Dedupe by place_id.
-        3. For each unique place, fetch Place Details for phone + address.
-        4. Convert to Candidate, computing distance from the airport.
+    Returns lightweight Candidate objects with name, place_id, lat/lng,
+    distance, and basic Places metadata. Address, phone, and address
+    components are filled in by enrich_with_details() AFTER the caller
+    has filtered chains and out-of-radius results. This split is the
+    biggest performance win: we don't pay $0.017 per Place Details call
+    on candidates we're about to throw away.
     """
     settings = get_settings()
     warnings: list[str] = []
 
+    # Mock paths: still call the full _to_candidate translator because the
+    # fixture already has merged nearby+details shape.
     if settings.app_mode == "mock":
         warnings.append("Running in mock mode. Results are from local fixtures, not Google Places.")
         raw_places = _load_mock_fixture(icao)
         if not raw_places:
             warnings.append(f"No mock fixture found for {icao}. Add backend/app/fixtures/places/{icao}.json.")
         candidates = [_to_candidate(p, origin_lat, origin_lng) for p in raw_places]
-        # Filter to radius in mock mode too, so the spec behaves identically.
         candidates = [c for c in candidates if c.distance_miles <= radius_miles]
         return candidates, warnings
 
@@ -300,13 +307,11 @@ async def search_nearby(
     all_raw: dict[str, dict[str, Any]] = {}
 
     async with httpx.AsyncClient() as client:
-        # Run nearby searches concurrently across types.
         nearby_tasks = [
             _fetch_nearby_live(client, origin_lat, origin_lng, radius_m, t, search_id)
             for t in SEARCH_TYPES
         ]
         nearby_results = await asyncio.gather(*nearby_tasks, return_exceptions=True)
-
         for t, results in zip(SEARCH_TYPES, nearby_results):
             if isinstance(results, Exception):
                 warnings.append(f"Nearby search failed for type={t}: {results}")
@@ -316,29 +321,81 @@ async def search_nearby(
                 if pid and pid not in all_raw:
                     all_raw[pid] = r
 
-        # Place details, also concurrent but with a small semaphore so we
-        # don't hammer the API.
-        sem = asyncio.Semaphore(8)
-
-        async def details_with_limit(pid: str) -> tuple[str, dict[str, Any]]:
-            async with sem:
-                resp = await _fetch_details_live(client, pid, search_id)
-                return pid, resp.get("result", {})
-
-        details_tasks = [details_with_limit(pid) for pid in all_raw.keys()]
-        details_results = await asyncio.gather(*details_tasks, return_exceptions=True)
-
-        for item in details_results:
-            if isinstance(item, Exception):
-                warnings.append(f"Place details exception: {item}")
-                continue
-            pid, detail = item
-            # Merge details on top of the nearby record.
-            merged = {**all_raw[pid], **(detail or {})}
-            all_raw[pid] = merged
-
     candidates = [_to_candidate(r, origin_lat, origin_lng) for r in all_raw.values()]
     candidates = [c for c in candidates if c.distance_miles <= radius_miles]
+    return candidates, warnings
+
+
+async def enrich_with_details(
+    candidates: list[Candidate], search_id: str
+) -> list[Candidate]:
+    """Fill in phone, formatted_address, address_components for each candidate.
+
+    Call this AFTER chain detection and radius filtering so you only pay
+    for Place Details on candidates that survive those filters. Mock mode
+    is a no-op because fixtures already include the full detail shape.
+    """
+    settings = get_settings()
+    if settings.app_mode == "mock" or not candidates:
+        return candidates
+
+    if not settings.google_maps_api_key:
+        return candidates
+
+    # Bumped 12 -> 20. Google's Place Details endpoint handles this fine
+    # and the calls are short-lived (50-300ms each).
+    sem = asyncio.Semaphore(20)
+    by_place_id = {c.place_id: c for c in candidates}
+
+    async with httpx.AsyncClient() as client:
+        async def one(pid: str) -> None:
+            async with sem:
+                resp = await _fetch_details_live(client, pid, search_id)
+            detail = (resp or {}).get("result", {}) or {}
+            cand = by_place_id.get(pid)
+            if not cand or not detail:
+                return
+            # Patch missing/improved fields on the candidate.
+            phone = detail.get("formatted_phone_number") or detail.get("international_phone_number")
+            if phone and not cand.phone:
+                cand.phone = phone
+            addr = detail.get("formatted_address")
+            if addr:
+                cand.address = addr
+            comps = detail.get("address_components")
+            if comps:
+                city, state, zip_code = _components_to_address(comps)
+                cand.city = cand.city or city
+                cand.state = cand.state or state
+                cand.zip = cand.zip or zip_code
+            status = detail.get("business_status")
+            if status and not cand.business_status:
+                cand.business_status = status
+            url = detail.get("url")
+            if url and not cand.google_maps_url:
+                cand.google_maps_url = url
+
+        await asyncio.gather(*(one(pid) for pid in by_place_id.keys()), return_exceptions=True)
+
+    return candidates
+
+
+# Backward-compatible alias for existing callers / tests.
+async def search_nearby(
+    icao: str,
+    origin_lat: float,
+    origin_lng: float,
+    radius_miles: float,
+    search_id: str,
+) -> tuple[list[Candidate], list[str]]:
+    """Legacy entry: runs nearby + details together. Kept for the mock-mode
+    smoke test which doesn't do the chain-filter-then-details dance.
+    Prefer search_nearby_basic + enrich_with_details in new code.
+    """
+    candidates, warnings = await search_nearby_basic(
+        icao, origin_lat, origin_lng, radius_miles, search_id
+    )
+    candidates = await enrich_with_details(candidates, search_id)
     return candidates, warnings
 
 

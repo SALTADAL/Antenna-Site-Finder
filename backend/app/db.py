@@ -68,7 +68,33 @@ CREATE TABLE IF NOT EXISTS cost_log (
 );
 
 CREATE INDEX IF NOT EXISTS idx_cost_search ON cost_log (search_id);
+
+-- Outreach state per candidate. One row per Place ID the field-ops user has
+-- touched. Candidates with no row are considered "untouched".
+CREATE TABLE IF NOT EXISTS outreach_state (
+    place_id TEXT PRIMARY KEY,
+    status TEXT NOT NULL,
+    last_contact_at INTEGER,
+    notes TEXT NOT NULL DEFAULT '',
+    contacted_by TEXT NOT NULL DEFAULT '',
+    business_name TEXT NOT NULL DEFAULT '',
+    airport_icao TEXT NOT NULL DEFAULT '',
+    updated_at INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_outreach_status ON outreach_state (status);
+CREATE INDEX IF NOT EXISTS idx_outreach_airport ON outreach_state (airport_icao);
 """
+
+VALID_OUTREACH_STATUSES = {
+    "untouched",
+    "contacted",
+    "followup",
+    "interested",
+    "declined",
+    "won",
+    "lost",
+}
 
 
 def _db_path() -> Path:
@@ -188,3 +214,119 @@ def cost_summary(search_id: str) -> dict[str, Any]:
     }
     total = round(sum(v["spend_usd"] for v in by_api.values()), 4)
     return {"by_api": by_api, "total_usd": total}
+
+
+# ---------------------------------------------------------------------------
+# Outreach state helpers
+# ---------------------------------------------------------------------------
+
+
+def outreach_get(place_id: str) -> dict[str, Any] | None:
+    """Fetch outreach state for one Place ID. None if never touched."""
+    with connection() as conn:
+        row = conn.execute(
+            "SELECT place_id, status, last_contact_at, notes, contacted_by, "
+            "business_name, airport_icao, updated_at "
+            "FROM outreach_state WHERE place_id = ?",
+            (place_id,),
+        ).fetchone()
+    if not row:
+        return None
+    return dict(row)
+
+
+def outreach_get_many(place_ids: list[str]) -> dict[str, dict[str, Any]]:
+    """Bulk lookup. Returns place_id -> state dict for any rows that exist.
+
+    Used by /search so we can annotate every candidate in one query
+    instead of N queries.
+    """
+    if not place_ids:
+        return {}
+    placeholders = ",".join("?" * len(place_ids))
+    with connection() as conn:
+        rows = conn.execute(
+            f"SELECT place_id, status, last_contact_at, notes, contacted_by, "
+            f"business_name, airport_icao, updated_at "
+            f"FROM outreach_state WHERE place_id IN ({placeholders})",
+            place_ids,
+        ).fetchall()
+    return {r["place_id"]: dict(r) for r in rows}
+
+
+def outreach_set(
+    place_id: str,
+    status: str,
+    notes: str = "",
+    contacted_by: str = "",
+    business_name: str = "",
+    airport_icao: str = "",
+    set_last_contact: bool = True,
+) -> dict[str, Any]:
+    """Upsert outreach state for one Place ID. Returns the resulting row.
+
+    `set_last_contact` defaults True so saving any status update bumps
+    the timestamp. Set False when you're correcting an old entry without
+    actually re-contacting the prospect.
+    """
+    import time as _time
+    if status not in VALID_OUTREACH_STATUSES:
+        raise ValueError(f"Invalid status {status!r}. Allowed: {sorted(VALID_OUTREACH_STATUSES)}")
+    now = int(_time.time())
+    last_contact = now if set_last_contact and status != "untouched" else None
+
+    with connection() as conn:
+        # Preserve existing last_contact_at if we're not bumping it now.
+        existing = conn.execute(
+            "SELECT last_contact_at, business_name, airport_icao "
+            "FROM outreach_state WHERE place_id = ?",
+            (place_id,),
+        ).fetchone()
+        if existing and last_contact is None:
+            last_contact = existing["last_contact_at"]
+        if existing:
+            business_name = business_name or existing["business_name"]
+            airport_icao = airport_icao or existing["airport_icao"]
+
+        conn.execute(
+            "INSERT INTO outreach_state "
+            "(place_id, status, last_contact_at, notes, contacted_by, "
+            " business_name, airport_icao, updated_at) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?) "
+            "ON CONFLICT(place_id) DO UPDATE SET "
+            "  status=excluded.status, "
+            "  last_contact_at=excluded.last_contact_at, "
+            "  notes=excluded.notes, "
+            "  contacted_by=excluded.contacted_by, "
+            "  business_name=COALESCE(NULLIF(excluded.business_name, ''), outreach_state.business_name), "
+            "  airport_icao=COALESCE(NULLIF(excluded.airport_icao, ''), outreach_state.airport_icao), "
+            "  updated_at=excluded.updated_at",
+            (
+                place_id, status, last_contact, notes, contacted_by,
+                business_name, airport_icao, now,
+            ),
+        )
+    return outreach_get(place_id) or {}
+
+
+def outreach_delete(place_id: str) -> bool:
+    """Remove a Place ID's outreach state (effectively reset to untouched)."""
+    with connection() as conn:
+        cursor = conn.execute("DELETE FROM outreach_state WHERE place_id = ?", (place_id,))
+        return cursor.rowcount > 0
+
+
+def outreach_list(airport_icao: str | None = None) -> list[dict[str, Any]]:
+    """Return every outreach row, optionally filtered by airport."""
+    with connection() as conn:
+        if airport_icao:
+            rows = conn.execute(
+                "SELECT * FROM outreach_state WHERE airport_icao = ? "
+                "ORDER BY updated_at DESC",
+                (airport_icao.upper(),),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT * FROM outreach_state ORDER BY updated_at DESC"
+            ).fetchall()
+    return [dict(r) for r in rows]

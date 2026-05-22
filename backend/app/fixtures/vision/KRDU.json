@@ -1,0 +1,5 @@
+{
+  "_comment": "Synthetic Claude vision verdicts for KRDU candidates that have no Solar coverage. Only used when Solar returned null/unknown. Real vision verdicts in live mode are derived from Google Static Maps satellite tiles passed to claude-3-5-sonnet.",
+  "fixture_krdu_014": {"verdict": "FLAT", "confidence_note": "Single-story commercial building, clearly flat roof in tile."},
+  "fixture_krdu_020": {"verdict": "MIXED", "confidence_note": "Partial flat section over service bays, pitched section over office area."}
+}

@@ -15,6 +15,8 @@ from app.config import get_settings
 from app.db import init_db
 from app.logging_config import configure_logging, get_logger
 from app.routers import export as export_router
+from app.routers import outreach as outreach_router
+from app.routers import preflight as preflight_router
 from app.routers import search as search_router
 
 configure_logging()
@@ -55,6 +57,8 @@ app.add_middleware(
 
 app.include_router(search_router.router)
 app.include_router(export_router.router)
+app.include_router(preflight_router.router)
+app.include_router(outreach_router.router)
 
 
 @app.get("/healthz")
