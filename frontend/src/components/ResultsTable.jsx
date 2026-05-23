@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react'
-import { googleEarthObliqueUrl } from '../util.js'
+import { googleEarthObliqueUrl, candidateEarthQuery } from '../util.js'
 
 // Column definitions. Each has a getter so we can sort uniformly.
 const COLUMNS = [
@@ -131,7 +131,7 @@ export default function ResultsTable ({ candidates, onSelect }) {
                 {c.city}, {c.state}
               </td>
               <td className='px-3 py-3 text-right'>
-                <EarthQuickButton lat={c.latitude} lng={c.longitude} />
+                <EarthQuickButton candidate={c} />
               </td>
             </tr>
           ))}
@@ -154,8 +154,12 @@ export function ScoreChip ({ score }) {
   )
 }
 
-function EarthQuickButton ({ lat, lng }) {
-  const url = googleEarthObliqueUrl(lat, lng)
+function EarthQuickButton ({ candidate }) {
+  const url = googleEarthObliqueUrl(
+    candidate.latitude,
+    candidate.longitude,
+    candidateEarthQuery(candidate)
+  )
   if (!url) return null
   return (
     <a

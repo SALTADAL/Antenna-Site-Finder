@@ -17,10 +17,16 @@ export default function PreflightBanner () {
         if (!cancelled) setData(json)
       } catch (e) {
         if (!cancelled) {
+          const detail = (
+            `Could not reach the backend at ${BASE}. ` +
+            'Causes: (1) Render free tier is asleep (wait 30-60 sec and refresh), ' +
+            '(2) CORS rejection because FRONTEND_ORIGIN on Render does not match this site, ' +
+            'or (3) backend crashed (check Render logs).'
+          )
           setData({
             overall_ok: false,
             mode: 'unknown',
-            checks: [{ ok: false, label: 'Backend', detail: 'Could not reach the backend on :8000.' }]
+            checks: [{ ok: false, label: 'Backend', detail }]
           })
         }
       } finally {

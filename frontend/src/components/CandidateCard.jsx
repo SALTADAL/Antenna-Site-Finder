@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { ScoreChip, StatusBadge, STATUS_OPTIONS } from './ResultsTable.jsx'
 import { updateOutreachState } from '../api.js'
-import { googleEarthObliqueUrl } from '../util.js'
+import { googleEarthObliqueUrl, candidateEarthQuery } from '../util.js'
 
 export default function CandidateCard ({ candidate, airport, onClose, onOutreachUpdate }) {
   const c = candidate
   const phoneHref = c.phone ? `tel:${c.phone.replace(/[^\d+]/g, '')}` : null
   const breakdownEntries = Object.entries(c.score_breakdown || {})
-  const earthUrl = googleEarthObliqueUrl(c.latitude, c.longitude)
+  const earthUrl = googleEarthObliqueUrl(c.latitude, c.longitude, candidateEarthQuery(c))
 
   const [status, setStatus] = useState(c.outreach?.status || 'untouched')
   const [notes, setNotes] = useState(c.outreach?.notes || '')
